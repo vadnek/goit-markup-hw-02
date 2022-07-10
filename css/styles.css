@@ -1,6 +1,10 @@
 :root {
   --color-text-hero: #080808;
   --color-footer-adress-link: #080808;
+  --text-btn: #212121;
+  --color-btn: #f5f4fa;
+  --text-btn-hover: #ffffff;
+  --color-btn-hover: #2196f3;
 }
 /* body {
   font-family: var(--font-family-main);
@@ -13,6 +17,9 @@
 }
 .link {
   text-decoration: none;
+}
+/* .hidden-title {
+text-decoration: none;
 }
 /* ==================header============ */
 .page-header {
@@ -104,7 +111,7 @@
 }
 
 .text-button {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -123,7 +130,7 @@
 }
 /* ================ чем мы занимаемся ============ */
 .future-title {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -134,7 +141,7 @@
 }
 
 .future {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -144,7 +151,7 @@
 }
 
 .secondary-title {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -156,7 +163,7 @@
 
 /*===============  наша команда  ===============*/
 .team-item-title {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -168,7 +175,7 @@
 }
 
 .team-item-description {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -181,7 +188,7 @@
 /* ================ footer ================== */
 
 .footer-address {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -191,11 +198,49 @@
 }
 
 .footer-adress-link {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
   color: var(--color-footer-adress-link);
+}
+
+/* ================ Portfolio ================== */
+.filters-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-btn);
+  background-color: var(--color-btn);
+  cursor: pointer;
+  border-radius: 4px;
+}
+.filters-btn:hover,
+.filters-btn:focus {
+  background-color: var(--color-btn-hover);
+  color: var(--text-btn-hover);
+}
+
+.portfolio-title-h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.portfolio-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
 }

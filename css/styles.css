@@ -1,4 +1,10 @@
 :root {
+  /*   Переменніе для body   */
+  --font-family-main: 'Roboto', sans-serif;
+  --color-text-main: #757575;
+  /* --font-family-secondary: 'Raleway', sans-serif; */
+  --color-bgd-main: #ffffff;
+  /* -------------------- */
   --color-text-hero: #080808;
   --color-footer-adress-link: #080808;
   --text-btn: #212121;
@@ -6,11 +12,12 @@
   --text-btn-hover: #ffffff;
   --color-btn-hover: #2196f3;
 }
-/* body {
+
+body {
   font-family: var(--font-family-main);
   color: var(--color-text-main);
   background-color: var(--color-bgd-main);
-} */
+}
 
 .list {
   list-style: none;
@@ -20,6 +27,9 @@
 }
 /* .hidden-title {
 text-decoration: none;
+}*/
+.hidden-title {
+  display: none;
 }
 /* ==================header============ */
 .page-header {
@@ -46,7 +56,7 @@ text-decoration: none;
 }
 
 .menu-link {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
@@ -60,12 +70,12 @@ text-decoration: none;
 }
 
 .phone-number {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--color-text-main);
 }
 
 .phone-number:hover,
@@ -74,12 +84,12 @@ text-decoration: none;
 }
 
 .mail {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--color-text-main);
 }
 
 /* ==========START PORTFOLIO========== */
@@ -103,6 +113,7 @@ text-decoration: none;
 
 .button {
   background: #2196f3;
+  cursor: pointer;
 }
 
 .button:hover,
@@ -111,7 +122,7 @@ text-decoration: none;
 }
 
 .text-button {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -130,7 +141,7 @@ text-decoration: none;
 }
 /* ================ чем мы занимаемся ============ */
 .future-title {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -141,17 +152,17 @@ text-decoration: none;
 }
 
 .future {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
-  color: #757575;
+  /* color: #757575; */
 }
 
 .secondary-title {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -163,7 +174,7 @@ text-decoration: none;
 
 /*===============  наша команда  ===============*/
 .team-item-title {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -175,7 +186,7 @@ text-decoration: none;
 }
 
 .team-item-description {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -183,22 +194,27 @@ text-decoration: none;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  /* color: #757575; */
 }
 /* ================ footer ================== */
 
 .footer-address {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
   color: var(--color-footer-adress-link);
+}
+
+.footer-address:hover,
+.footer-address:focus {
+  color: #2196f3;
 }
 
 .footer-adress-link {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -207,6 +223,10 @@ text-decoration: none;
   color: var(--color-footer-adress-link);
 }
 
+.footer-adress-link:hover,
+.footer-adress-link:focus {
+  color: #2196f3;
+}
 /* ================ Portfolio ================== */
 .filters-btn {
   font-family: 'Roboto', sans-serif;
@@ -219,7 +239,9 @@ text-decoration: none;
   background-color: var(--color-btn);
   cursor: pointer;
   border-radius: 4px;
+  cursor: pointer;
 }
+
 .filters-btn:hover,
 .filters-btn:focus {
   background-color: var(--color-btn-hover);
@@ -227,7 +249,7 @@ text-decoration: none;
 }
 
 .portfolio-title-h2 {
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -236,11 +258,11 @@ text-decoration: none;
   color: #212121;
 }
 .portfolio-text {
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  /* color: #757575; */
 }
